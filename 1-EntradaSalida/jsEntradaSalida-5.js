@@ -2,6 +2,14 @@
 ej.: "Usted se llama José y tiene 66 años" 	*/
 function Mostar()
 {	
+	var nombre;
+	var edad;
 	
+	nombre=document.getElementById('elNombre').value;
+	edad=document.getElementById('laEdad').value;
+
+	//Usando el signo "+" podemos unir diferentes variables en un solo codigo.
+
+	alert("Su nombre es: "+nombre+" Su edad es: "+edad);
 }
 
